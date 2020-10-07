@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Employees from './components/Employees';
+import Button from './components/Button';
+import List from './components/List';
 
 function App() {
   return (
@@ -10,14 +13,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <List/>
+          <Button/>
+          <Employees/>
       </header>
     </div>
   );
